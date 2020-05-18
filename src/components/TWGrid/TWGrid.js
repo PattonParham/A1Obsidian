@@ -14,14 +14,44 @@ const Grid = styled.div.attrs({
       .w-1/3 {
         ${tw`w-1/3`}
       }
+      .w-2/3 {
+        ${tw`w-2/3`}
+      }
       .w-1/4 {
         ${tw`w-1/4`}
+      }
+      .w-2/4{
+        ${tw`w-2/4`}
+      }
+      .w-3/4{
+        ${tw`w-3/4`}
       }
       .w-1/5 {
         ${tw`w-1/5`}
       }
+      .w-2/5 {
+        ${tw`w-2/5`}
+      }
+      .w-3/5 {
+        ${tw`w-3/5`}
+      }
+      .w-4/5 {
+        ${tw`w-4/5`}
+      }
       .w-1/6 {
         ${tw`w-1/6`}
+      }
+      .w-2/6 {
+        ${tw`w-2/6`}
+      }
+      .w-3/6 {
+        ${tw`w-3/6`}
+      }
+      .w-4/6 {
+        ${tw`w-4/6`}
+      }
+      .w-5/6 {
+        ${tw`w-5/6`}
       }
       .-mx-1{
         ${tw`-mx-1`}
@@ -102,7 +132,10 @@ const Grid = styled.div.attrs({
         ${tw`flex`}
       }
       .flex-1{
-          ${tw`flex-1`}
+        ${tw`flex-1`}
+      }
+      .flex-wrap{
+        ${tw`flex-wrap`}
       }
       .mb-1{
         ${tw`mb-1`}
@@ -164,8 +197,105 @@ const Grid = styled.div.attrs({
       .h-12{
         ${tw`h-12`} 
       }
-
-
+      .ml-auto{
+        ${tw`ml-auto`}
+      }
+      .mr-auto{
+        ${tw`mr-auto`}
+      }
+      .grid{
+        ${tw`grid`}
+      }
+      .gap-1{
+        ${tw`gap-1`}
+      }
+      .gap-2{
+        ${tw`gap-2`}
+      }
+      .gap-3{
+        ${tw`gap-3`}
+      }
+      .gap-4{
+        ${tw`gap-4`}
+      }
+      .gap-5{
+        ${tw`gap-5`}
+      }
+      .gap-6{
+        ${tw`gap-6`}
+      }
+      .gap-7{
+        ${tw`gap-7`}
+      }
+      .gap-8{
+        ${tw`gap-8`}
+      }
+      .gap-9{
+        ${tw`gap-9`}
+      }
+      .gap-10{
+        ${tw`gap-10`}
+      }
+      .gap-11{
+        ${tw`gap-11`}
+      }
+      .gap-12{
+        ${tw`gap-12`}
+      }
+      .col-gap-1{
+        ${tw`col-gap-1`}
+      }
+      .col-gap-2{
+        ${tw`col-gap-2`}
+      }
+      .col-gap-3{
+        ${tw`col-gap-3`}
+      }
+      .col-gap-4{
+        ${tw`col-gap-4`}
+      }
+      .col-gap-5{
+        ${tw`col-gap-5`}
+      }
+      .col-gap-6{
+        ${tw`col-gap-6`}
+      }
+      .col-gap-7{
+        ${tw`col-gap-7`}
+      }
+      .col-gap-8{
+        ${tw`col-gap-8`}
+      }
+      .col-gap-9{
+        ${tw`col-gap-9`}
+      }
+      .col-gap-10{
+        ${tw`col-gap-10`}
+      }
+      .col-gap-11{
+        ${tw`col-gap-11`}
+      }
+      .col-gap-12{
+        ${tw`col-gap-12`}
+      }
+      .grid-cols-1{
+        ${tw`grid-cols-1`}
+      }
+      .grid-cols-2{
+        ${tw`grid-cols-2`}
+      }
+      .grid-cols-3{
+        ${tw`grid-cols-3`}
+      }
+      .grid-cols-4{
+        ${tw`grid-cols-4`}
+      }
+      .grid-cols-5{
+        ${tw`grid-cols-5`}
+      }
+      .grid-cols-6{
+        ${tw`grid-cols-6`}
+      }
     }
     
   `;
