@@ -7,8 +7,8 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
    
-    <div>
-       <Navbar></Navbar>
+    <div className="body">
+       <Navbar className = "nav"></Navbar>
 
       </div>
   

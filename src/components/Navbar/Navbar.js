@@ -4,14 +4,19 @@ import Grid from '../TWGrid/TWGrid';
 
 function Navbar(){
     return (
-        <Grid>
-        <div className ="Navbar row -mx-2">
-            <a className ="w-1/3 px-2">Blah</a>
-            <a className ="w-1/3 px-2">Blah</a>
-            <a className ="w-1/3 px-2">Blah</a>
-    
+        
+        <div className ="Navbar">
+            <Grid>
+            <div className="navlinks">
+          
+            <a className ="link w-1/3 px-8">About</a>
+            <a className ="link w-1/3 px-8">Shop</a>
+            <a className ="link w-1/3 px-8">Contact</a>
+         
+            </div>
+            </Grid>
         </div>
-        </Grid>
+       
     );
 };
 
