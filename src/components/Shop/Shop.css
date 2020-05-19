@@ -1,0 +1,43 @@
+.photo{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-style: inset;
+    border-color: goldenrod;
+    margin-left: 80px;
+    
+}
+
+.price{
+    width: 200px;
+    height: 100px;
+    background-color:grey;
+    background-image: url("../Images/shopwidgetbackground.png");
+    border-style: inset;
+    border-color: goldenrod;
+    margin-left: 80px;
+    
+}
+
+.row{
+    width: 1120px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.description{
+    margin-top: -15px;
+    color: goldenrod;
+    -webkit-text-stroke: .25px rgb(32, 32, 32);
+    font-size: 17px;
+    margin-left: 5px;
+}
+.shopwidget{
+    margin-top: -10px;
+}
+.dollars{
+    margin-left: 5px;
+    font-size: 40px;
+    margin-top: 0px;
+    color: goldenrod;
+    -webkit-text-stroke: .25px rgb(32, 32, 32);
+}

@@ -1,7 +1,11 @@
 .Navbar{
     background-color: grey;
+    background-image: url("../Images/upscaledslatenav.png");
     height: 100px;
     margin: 0px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: goldenrod;
 }
 
 .navlinks{
@@ -11,5 +15,14 @@
 
 body{
     margin: 0;
+   
 }
 
+.link{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+@media only screen and(max-width: 1500px){
+
+}

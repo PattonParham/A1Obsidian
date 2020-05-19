@@ -125,6 +125,42 @@ const Grid = styled.div.attrs({
       .px-12{
         ${tw`px-12`}
       }
+      .py-1{
+        ${tw`py-1`}
+      }
+      .py-2{
+        ${tw`py-2`}
+      }
+      .py-3{
+        ${tw`py-3`}
+      }
+      .py-4{
+        ${tw`py-4`}
+      }
+      .py-5{
+        ${tw`py-5`}
+      }
+      .py-6{
+        ${tw`py-6`}
+      }
+      .py-7{
+        ${tw`py-7`}
+      }
+      .py-8{
+        ${tw`py-8`}
+      }
+      .py-9{
+        ${tw`py-9`}
+      }
+      .py-10{
+        ${tw`py-10`}
+      }
+      .py-11{
+        ${tw`py-11`}
+      }
+      .py-12{
+        ${tw`py-12`}
+      }
       .row {
         ${tw`flex mb-4`}
       }
@@ -203,6 +239,7 @@ const Grid = styled.div.attrs({
       .mr-auto{
         ${tw`mr-auto`}
       }
+      
 
 
     }
