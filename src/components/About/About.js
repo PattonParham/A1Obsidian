@@ -5,7 +5,7 @@ import Grid from '../TWGrid/TWGrid';
 function About(){
     return(
         <div>
-
+            <Grid></Grid>
         </div>
     );
 };

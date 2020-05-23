@@ -5,6 +5,7 @@ import Grid from '../TWGrid/TWGrid';
 function Contact(){
     return(
         <div>
+            <Grid></Grid>
 
         </div>
     );

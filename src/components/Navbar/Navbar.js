@@ -7,15 +7,15 @@ function Navbar(){
         
         <div className ="Navbar">
             <Grid>
-            <div className="navlinks py-8">
+            <div className="navlinks py-8 flex">
           <Link className="link" to ="/about">
-            <a className ="link w-1/3 px-10">About</a>
+            <p className ="link w-1/3 px-10">About</p>
             </Link>
             <Link className="link" to="/shop">
-            <a className ="link w-1/3 px-10">Shop</a>
+            <p className ="link w-1/3 px-10">Shop</p>
             </Link>
             <Link className="link" to="/contact">
-            <a className="link w-1/3 px-10">Contact</a>
+            <p className="link w-1/3 px-10">Contact</p>
             </Link>
             </div>
             </Grid>
