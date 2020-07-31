@@ -12,7 +12,7 @@ const AdminTW = styled.div.attrs({
     .w-1/3{
         ${tw`w-1/3`}
     }
-    .
+    
     
 }`;
 

@@ -1,21 +1,23 @@
 .photo{
-    width: 200px;
-    height: 200px;
+    width: 200px !important;
+    height: 200px !important;
     background-color: black;
     border-style: inset;
     border-color: goldenrod;
     margin-left: 80px;
+    margin-top: 10px;
     
 }
 
 .price{
-    width: 200px;
-    height: 100px;
+    width: 200px !important;
+    height: 100px !important;
     background-color:grey;
     background-image: url("../Images/shopwidgetbackground.png");
     border-style: inset;
     border-color: goldenrod;
     margin-left: 80px;
+    margin-top: 20px;
     
 }
 
@@ -25,7 +27,7 @@
     margin-left: 250px;
 }
 .description{
-    margin-top: -15px;
+    margin-top: 0px;
     color: goldenrod;
     -webkit-text-stroke: .25px rgb(32, 32, 32);
     font-size: 17px;

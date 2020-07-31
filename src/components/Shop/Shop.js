@@ -15,7 +15,9 @@ function Shop(){
         <div className="row">
             <div className="price">
             <div className="description">
-            <p>Peacock Ore in Copper pendant</p>
+            <p>
+            Peacock Ore in Copper pendant
+                </p>
             </div>
             <div className="shopwidget">
             <div className="column"> <p className="dollars">$100</p></div>
@@ -36,24 +38,45 @@ function Shop(){
 
             </div>
         </div>
-        <div className="row">
+        <div className="grid">
+            <div className="galleryphoto w-full small large">
             <div className="photo"></div>
+            <div className="price"></div>
+            </div>
+
+            <div className="galleryphoto w-full small large">
             <div className="photo"></div>
+            <div className="price"></div>
+            </div>
+
+            <div className="galleryphoto w-full small large">
             <div className="photo"></div>
+            <div className="price"></div>
+            </div>
+
+            <div className="galleryphoto w-full small large">
             <div className="photo"></div>
+            <div className="price"></div>
+            </div>
+
+            <div className="galleryphoto w-full small large">
+            <div className="photo"></div>
+            <div className="price"></div>
+            </div>
+
+            <div className="galleryphoto w-full small large">
+            <div className="photo"></div>
+            <div className="price"></div>
+            </div>
+
+            <div className="galleryphoto w-full small large">
+            <div className="photo"></div>
+            <div className="price"></div>
+            </div>
+
         </div>
-        <div className="row">
-            <div className="photo"></div>
-            <div className="photo"></div>
-            <div className="photo"></div>
-            <div className="photo"></div>
-        </div>
-        <div className="row">
-            <div className="photo"></div>
-            <div className="photo"></div>
-            <div className="photo"></div>
-            <div className="photo"></div>
-        </div>
+
+
         </ShopTW>
     );
 };

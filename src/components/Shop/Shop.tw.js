@@ -27,6 +27,26 @@ button{
     ${tw`flex`}
 }
 
+.grid{
+    ${tw`flex flex-wrap`}
+}
+
+.w-full{
+    ${tw`w-full`}
+}
+
+.small{
+    ${tw`sm:w-1/2`}
+}
+.medium{
+    ${tw`md:w-1/3`}
+}
+.large{
+    ${tw`lg:w-1/4`}
+}
+.xl{
+    ${tw`xl:w-1/6`}
+}
 
 
 
