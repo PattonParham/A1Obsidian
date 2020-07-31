@@ -39,7 +39,7 @@ button{
     ${tw`sm:w-1/2`}
 }
 .medium{
-    ${tw`md:w-1/3`}
+    ${tw`md:w-1/2`}
 }
 .large{
     ${tw`lg:w-1/4`}
@@ -52,5 +52,6 @@ button{
 
 
   }`;
+ 
 
 export default ShopTW;

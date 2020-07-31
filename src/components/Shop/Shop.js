@@ -5,14 +5,12 @@ import ShopTW from './Shop.tw';
 function Shop(){
     return(
         <ShopTW>
-        <div className="row">
-            <div className="photo"></div>
-            <div className="photo"></div>
-            <div className="photo"></div>
-            <div className="photo"></div>
-        </div>
 
-        <div className="row">
+
+ 
+        <div className="grid">
+            <div className="galleryphoto w-full small medium large">
+            <div className="photo"></div>
             <div className="price">
             <div className="description">
             <p>
@@ -27,49 +25,34 @@ function Shop(){
             </div>
             </div>
             </div>
-
-            <div className="price">
-
             </div>
-            <div className="price">
 
-            </div>
-            <div className="price">
-
-            </div>
-        </div>
-        <div className="grid">
-            <div className="galleryphoto w-full small large">
+            <div className="galleryphoto w-full small medium large">
             <div className="photo"></div>
             <div className="price"></div>
             </div>
 
-            <div className="galleryphoto w-full small large">
+            <div className="galleryphoto w-full small medium large">
             <div className="photo"></div>
             <div className="price"></div>
             </div>
 
-            <div className="galleryphoto w-full small large">
+            <div className="galleryphoto w-full small medium large">
             <div className="photo"></div>
             <div className="price"></div>
             </div>
 
-            <div className="galleryphoto w-full small large">
+            <div className="galleryphoto w-full small medium large">
             <div className="photo"></div>
             <div className="price"></div>
             </div>
 
-            <div className="galleryphoto w-full small large">
+            <div className="galleryphoto w-full small medium large">
             <div className="photo"></div>
             <div className="price"></div>
             </div>
 
-            <div className="galleryphoto w-full small large">
-            <div className="photo"></div>
-            <div className="price"></div>
-            </div>
-
-            <div className="galleryphoto w-full small large">
+            <div className="galleryphoto w-full small medium large">
             <div className="photo"></div>
             <div className="price"></div>
             </div>
