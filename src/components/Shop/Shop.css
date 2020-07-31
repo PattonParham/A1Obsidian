@@ -48,6 +48,23 @@
     color: goldenrod;
     -webkit-text-stroke: .25px rgb(32, 32, 32);
 }
+@media only screen and (max-width: 1150px){
+
+}
+@media only screen and (max-width: 1024px){
+    .grid{
+        margin-left: 60px;
+        width: 800px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .grid{
+        margin-left: 20px;
+        width: 800px;
+    }
+
+}
+
 
 @media only screen and (max-width: 700px) {
 

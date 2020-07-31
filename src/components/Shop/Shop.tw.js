@@ -39,13 +39,14 @@ button{
     ${tw`sm:w-1/2`}
 }
 .medium{
-    ${tw`md:w-1/2`}
+    ${tw`md:w-1/3`}
 }
+
 .large{
-    ${tw`lg:w-1/4`}
+    ${tw`lg:w-1/3`}
 }
 .xl{
-    ${tw`xl:w-1/6`}
+    ${tw`xl:w-1/4`}
 }
 
 

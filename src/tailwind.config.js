@@ -1,5 +1,7 @@
 module.exports = {
   theme: {
+
+
     fontFamily: {
       display: ["Helvetica", "sans-serif"],
       body: ["Helvetica-Neue", "sans-serif"]
@@ -20,6 +22,9 @@ module.exports = {
       }
     }
   },
+
   variants: {},
-  plugins: []
+  plugins: [],
+
+
 };
