@@ -1,6 +1,6 @@
 .photo{
-    width: 200px !important;
-    height: 200px !important;
+    width: 300px !important;
+    height: 300px !important;
     background-color: black;
     border-style: inset;
     border-color: goldenrod;
@@ -10,8 +10,8 @@
 }
 
 .price{
-    width: 200px !important;
-    height: 100px !important;
+    width: 300px !important;
+    height: 150px !important;
     background-color:grey;
     background-image: url("../Images/shopwidgetbackground.png");
     border-style: inset;
@@ -35,11 +35,11 @@
     margin-top: 0px;
     color: goldenrod;
     -webkit-text-stroke: .25px rgb(32, 32, 32);
-    font-size: 17px;
+    font-size: 20px;
     margin-left: 5px;
 }
 .shopwidget{
-    margin-top: -10px;
+    margin-top: 20px;
 }
 .dollars{
     margin-left: 5px;
@@ -48,35 +48,74 @@
     color: goldenrod;
     -webkit-text-stroke: .25px rgb(32, 32, 32);
 }
-@media only screen and (max-width: 1150px){
+@media only screen and (max-width: 1350px){
+    .grid{
+        margin-left:40px;
+    }
+    .price{
 
+        margin-left: 40px;
+    }
+
+    .photo{
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .grid{
+        margin-left: 40px;
+       
+    }
+
+    .price{
+
+        margin-left: 40px;
+    }
+
+    .photo{
+        margin-left: 40px;
+    }
+    
 }
 @media only screen and (max-width: 1024px){
     .grid{
-        margin-left: 60px;
+        margin-left: 40px;
         width: 800px;
+    }
+
+    .price{
+        transform: scale(.8);
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+
+    .photo{
+        transform: scale(.8);
+        margin-left: 40px;
     }
 }
 @media only screen and (max-width: 900px){
     .grid{
-        margin-left: 20px;
+        margin-left: 40px;
         width: 800px;
     }
 
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
 
     .grid{
-        margin-left: 20px;
+        margin-left: 40px;
+        width: 600px;
     }
 
     .photo{
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .price{
-        margin-left: 20px;
+        margin-left: 40px;
     }
 }

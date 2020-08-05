@@ -10,7 +10,7 @@ function Shop(){
  
         <div className="grid">
             <div className="galleryphoto w-full small medium large">
-            <div className="photo"></div>
+            <div className="photo" href="https://www.instagram.com/p/Bza8V9Fhr6W/"></div>
             <div className="price">
             <div className="description">
             <p>

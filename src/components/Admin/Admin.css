@@ -16,3 +16,8 @@
 .cards{
    margin-left: 40px;
 }
+
+#image{
+    width:300px;
+    height:300px;
+}
